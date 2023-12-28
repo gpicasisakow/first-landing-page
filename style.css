@@ -5,6 +5,8 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -65,8 +67,9 @@ body {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 5px 20px;
     margin-top: 5px;
+    border: 0;
 }
 
 .section-1 .subsection-1-text {
@@ -110,7 +113,84 @@ body {
 }
 
 .section-2 p {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 50;
     color: grey;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+
+.section-3 .quote {
+    font-family: light italic;
+    font-size: 36px;
+    color: #1F2937;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.section-3 .quote-author {
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+    margin-right: 250px;
+    font-size: 20px;
+}
+
+.section-4 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 600px;
+}
+
+.conteiner .texts {
+    margin-left: 20px;
+    color: #F9FAF8;
+}
+
+.texts .sign-up-title {
+    font-weight: bold;
+    font-size: large;
+}
+
+.texts .sign-up-p {
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.conteiner button {
+    margin-right: 60px;
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer div {
+    color: #F9FAF8;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
