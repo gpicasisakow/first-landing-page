@@ -1,1 +1,1 @@
-# first-landing-page
+Landing page created with the knowledge about html and css I got as far.
